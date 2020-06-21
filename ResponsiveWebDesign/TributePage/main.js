@@ -53,5 +53,21 @@ INSTRUCTIONS:
 // Once you have read the above messages, you can delete all comments. 
 
 
+//define content
+const content = {
+  {
+    name: "Leonardo Da Vinci",
+    notable_for: "His contributions to art, engineering, and science."
+    famous_works: ["Mona Lisa", "..."],
+    image: ["url-placeholder", "width-placeholder", "height-placeholder"]
+  }
+}
 
-
+//inserts content into main section sequentially
+function load_content(){
+  let main = document.getElementById("main");
+  //traverse content dataset
+  for (record in content){
+    
+  }
+}
